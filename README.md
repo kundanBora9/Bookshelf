@@ -1,8 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+First, I design the page, including the input field and the My Bookshelf button.
+After designing, I use state in the input field to handle data, followed by fetching it in JSON format.Then, I search for a result state that will assist me in storing data received via Api, such as the object name book, which is printed in the format book.book_title, and other information required for that data. Once the thing has been developed and is working properly. I move on to the add to bookshelf button because when I click it, the page should transmit data to my bookshelf page, which I developed using props. Then In App.jsx, using state, I handle the data coming from the header.jsx with the aid of react dom, I transmit data through bookshelf, and then in mybookshelf, I call that property, which helps me receive that data, and the test works well.but wasting time when fatching the name of the books over 5 seconds. 
